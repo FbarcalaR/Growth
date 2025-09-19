@@ -77,7 +77,7 @@ const TaskList: React.FC<TaskListProps> = ({
                   <p className="text-xs text-gray-700 font-medium">Goals:</p>
                   <div className="flex flex-wrap gap-1 mt-1">
                     {task.goals.map((goal, index) => (
-                      <span key={index} className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                      <span key={index} className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
                         {goal.target.name}: {goal.target.value}
                       </span>
                     ))}

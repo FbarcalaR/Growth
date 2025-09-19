@@ -64,7 +64,7 @@ export default function DashboardPage() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-800">Active Today</span>
-                  <span className="font-semibold text-green-600">0</span>
+                  <span className="font-semibold text-yellow-600">0</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-800">Completed Today</span>

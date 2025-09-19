@@ -22,7 +22,7 @@ const RoutineStats: React.FC<RoutineStatsProps> = ({
         </div>
         <div className="flex justify-between">
           <span className="text-gray-800">Completed Today</span>
-          <span className="font-semibold text-green-600">{completedToday}</span>
+          <span className="font-semibold text-yellow-600">{completedToday}</span>
         </div>
         <div className="flex justify-between">
           <span className="text-gray-800">Days Active</span>
