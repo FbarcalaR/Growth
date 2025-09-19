@@ -41,8 +41,8 @@ This document outlines the color palette used in the Growth application, with a 
 ## Semantic Colors
 
 ### Success
-- **Primary**: `text-green-600` (#16a34a)
-- **Background**: `bg-green-100` (#dcfce7)
+- **Primary**: `text-yellow-600` (#d97706)
+- **Background**: `bg-yellow-100` (#fef3c7)
 - **Usage**: Success messages, completed tasks
 
 ### Error
