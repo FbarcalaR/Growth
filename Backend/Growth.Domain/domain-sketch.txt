@@ -1,0 +1,41 @@
+- DailyPlan
+	- Name
+	- RepetitionOnDates
+	- StartDate
+	- StreakDays
+	- MaxStreak
+	- TotalDays
+	- *Schedule*
+		- FromTime
+		- ToTime
+		- Duration
+	- *Goal*?
+		- *Metrics*
+	- Tasks
+		- *Schedule*
+			- FromTime
+			- ToTime
+			- Duration
+		- Name
+		- Notes
+		- Goals
+			- Metrics
+			- Progress
+				- (for example, for gym, photos  or numbers like weight)
+- RecommendedRoutines : DailyPlan
+- DailyProgress
+	- CompletedPercentage
+	- CompletedTasks
+		- CompletedOnDate
+		- Name
+	- FailedTasks
+		- FailedOnDate
+		- FailedReason
+		- Name
+- ProgressHistory
+	- DailyProgresses
+- DailyMood
+	- Date
+	- Mood
+- MoodHistory
+	- Moods
