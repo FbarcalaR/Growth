@@ -8,11 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        'main-text': '#191919',
-        'main-back-color': '#191919',
-        'main-color': '#829f82',
-      },
       fontFamily: {
         title: ['ClashDisplay'],
         body: ['Nunito'],

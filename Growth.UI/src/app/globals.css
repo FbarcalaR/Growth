@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text: #eaffea;
 }
 
 @font-face {
@@ -13,4 +14,14 @@
 @font-face {
   font-family: 'Nunito';
   src: local('Nunito'), url(../../public/fonts/Nunito/Nunito-VariableFont_wght.ttf) format('truetype');
+}
+
+@theme {
+  --font-body: "ClashDisplay", "Satoshi", "sans-serif";
+  --font-title: "Nunito", "Satoshi", "sans-serif";
+  --breakpoint-3xl: 120rem;
+
+  --color-main-text: #eaffea;
+  --color-main-back-color: #191919;
+  --color-main-color: #829f82;
 }
