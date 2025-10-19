@@ -1,0 +1,5 @@
+- [ ] create form components (text input, number input, selects and so on)
+- [ ] also buttons, cards and all visual things
+- [ ] use form components in src\app\register\page.tsx (+login page)
+- [ ] use a proper form in src\app\register\page.tsx (+login page) instead of a set of useStates
+- [ ] add a proper logout function in src\api\users\logout.ts
